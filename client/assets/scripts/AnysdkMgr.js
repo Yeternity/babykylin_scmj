@@ -95,7 +95,7 @@ cc.Class({
             if(jsb.fileUtils.isFileExist(fullPath)){
                 var height = 100;
                 var scale = height/size.height;
-			    var width = Math.floor(size.width * scale);
+                var width = Math.floor(size.width * scale);
                 
                 if(cc.sys.os == cc.sys.OS_ANDROID){
                     jsb.reflection.callStaticMethod(self.ANDROID_API, "ShareIMG", "(Ljava/lang/String;II)V",fullPath,width,height);

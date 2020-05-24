@@ -2,13 +2,13 @@ cc.Class({
     extends: cc.Component,
     properties: {
         account:null,
-	    userId:null,
-		userName:null,
-		lv:0,
-		exp:0,
-		coins:0,
-		gems:0,
-		sign:0,
+        userId:null,
+        userName:null,
+        lv:0,
+        exp:0,
+        coins:0,
+        gems:0,
+        sign:0,
         ip:"",
         sex:0,
         roomData:null,
@@ -57,16 +57,16 @@ cc.Class({
                 else{
                     console.log(ret);
                     self.account = ret.account;
-        			self.userId = ret.userid;
-        			self.userName = ret.name;
-        			self.lv = ret.lv;
-        			self.exp = ret.exp;
-        			self.coins = ret.coins;
-        			self.gems = ret.gems;
+                    self.userId = ret.userid;
+                    self.userName = ret.name;
+                    self.lv = ret.lv;
+                    self.exp = ret.exp;
+                    self.coins = ret.coins;
+                    self.gems = ret.gems;
                     self.roomData = ret.roomid;
                     self.sex = ret.sex;
                     self.ip = ret.ip;
-        			cc.director.loadScene("hall");
+                    cc.director.loadScene("hall");
                 }
             }
         };

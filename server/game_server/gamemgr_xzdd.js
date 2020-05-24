@@ -34,7 +34,7 @@ function shuffle(game) {
     
     var mahjongs = game.mahjongs;
 
-	/*
+    /*
     var idx = 0;
     for(var i = 0; i < 12; ++i){
         game.mahjongs[idx++] = 0;

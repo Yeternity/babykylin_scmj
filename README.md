@@ -6,15 +6,17 @@
 
 ## 运行
 
+> OS: Win10
+>
 > Cocos Creator v2.3.3
 >
 > Node.js v12.14.1
 >
-> OS: Win10
+> MySql v8.0.19
 
 ### 数据库
 
-1. 建表 `db_babykylin`，更改 configs_win.js 中的用户名和密码
+1. 在 MySql 中建表，名为 `db_babykylin`，更改 configs_win.js 中的用户名和密码
 2. 运行 sql 语句
 3. 启动数据库
 
